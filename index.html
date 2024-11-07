@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <form class="form" id="form">
+            <h1>Registration Form</h1>
+            <div class="form-control">
+                <label>Username:</label>
+                <input type="text" name="username" id="username" />
+                <span class="error"></span>
+            </div>
+            <div class="form-control">
+                <label>Email:</label>
+                <input type="text" name="email" id="email" />
+                <span class="error"></span>
+            </div>
+            <div class="form-control">
+                <label>Password:</label>
+                <input type="password" name="password" id="password" />
+                <span class="error"></span>
+            </div>
+            <div class="form-control">
+                <label>Mobile Number:</label>
+                <input type="text" name="mobile-number" id="mobile-number" /> <!-- Changed type to text -->
+                <span class="error"></span>
+            </div>
+            <input type="submit" id="btn" value="Submit" />
+            <div id="outputMessage" style="margin-top: 20px; font-size: 1.2em;"></div> <!-- Added this div for output message -->
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
